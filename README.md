@@ -7,8 +7,8 @@ The [HackTheBase IoT Hub Lab](https://hackthebase.com/iot-hub-lab) is a creative
 all sorts of microcontrollers ([Adafruit Feather](https://www.adafruit.com/feather), [Particle Boron](https://docs.particle.io/boron/), 
 [ESP8266](https://www.esp8266.com/wiki/doku.php), [ESP32](http://esp32.net/) and more) 
 with various types of connectivity (WiFi, LoRaWAN, GSM, LTE-M), and tools such as screwdriver,
-voltmeter, wirings, as well as an excellent program filled with meetups, workshops, 
-and hackathons to the community members. 
+voltmeter, wirings, as well as an excellent program filled with [meetups](https://hackthebase.com/events), 
+[workshops](https://hackthebase.com/workshops), and [hackathons](https://hackthebase.com/display/hackathon/iot-hackathon) to the community members. 
 
 [https://hackthebase.com/iot-hub-lab](https://hackthebase.com/iot-hub-lab)
  
