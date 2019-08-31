@@ -164,7 +164,7 @@ void setup() {
    * Getting Started with Adafruit Feather M0 LoRa
    * https://startiot.telenor.com/learning/getting-started-with-adafruit-feather-m0-lora/
    * 
-   * How to measure fine dust via LoRaWan based on Adafruit Feather M0 Lora boards and SDS011/SDS018 sensors
+   * How to measure fine dust via LoRaWan based on Adafruit Feather M0 LoRa boards and SDS011/SDS018 sensors
    * https://github.com/marcuscbehrens/loralife
    * 
    */
