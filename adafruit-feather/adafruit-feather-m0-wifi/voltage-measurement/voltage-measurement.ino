@@ -18,7 +18,7 @@ const unsigned long postingInterval = 15L * 1000L;  // delay between updates, in
 int sensorValue = 0;        // variable to store the value coming from the sensor
 const int analogInPin = A0; // V(in)
 
-#define UCW_API_HOST          "cloud.unitycloudware.com"
+#define UCW_API_HOST          "cloud.dev.unitycloudware.com"
 #define UCW_API_PORT          80
 #define UCW_API_DEVICE_TOKEN  "your_token"
 #define UCW_API_DEVICE_ID     "your_device_id"

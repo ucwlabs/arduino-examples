@@ -15,10 +15,12 @@ int status = WL_IDLE_STATUS;
 unsigned long lastConnectionTime = 0;               // last time you connected to the server, in milliseconds
 const unsigned long postingInterval = 15L * 1000L;  // delay between updates, in milliseconds
 
-#define UCW_API_HOST          "cloud.unitycloudware.com"
+#define UCW_API_HOST          "cloud.dev.unitycloudware.com"
 #define UCW_API_PORT          80
 #define UCW_API_DEVICE_TOKEN  "your_token"
 #define UCW_API_DEVICE_ID     "your_device_id"
+#define UCW_API_DATA_STREAM   "data-monitoring"
+#define UCW_CLIENT_NAME       "Adafruit-Feather-M0-WiFi"
 
 IPAddress server;
 WiFiClient client;
@@ -175,7 +177,8 @@ void sendData(String payload) {
     Serial.print("Payload length: ");
     Serial.println(payload.length());
 
-    String apiUri = "POST /api/ucw/v1/data-streams/data-monitoring/messages/%deviceId HTTP/1.1";
+    String apiUri = "POST /api/ucw/v1/data-streams/%dataStream/messages/%deviceId HTTP/1.1";
+    apiUri.replace("%dataStream", UCW_API_DATA_STREAM);
     apiUri.replace("%deviceId", UCW_API_DEVICE_ID);
 
     Serial.print("API URI: ");
@@ -184,7 +187,8 @@ void sendData(String payload) {
     client.println(apiUri);
     client.print("Host: ");
     client.println(UCW_API_HOST);
-    client.println("User-Agent: Adafruit-Feather-M0-Wifi");
+    client.print("User-Agent: ");
+    client.println(UCW_CLIENT_NAME);
     client.println("Connection: close");
     client.println("Content-Type: application/json");
     client.print("Content-Length: ");
