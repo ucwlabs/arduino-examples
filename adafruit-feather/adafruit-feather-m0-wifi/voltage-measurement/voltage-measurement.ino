@@ -1,6 +1,6 @@
 /* 
-  Voltage Measurement Firmware
-  Copyright 2019 HackTheBase - UCW Labs Ltd. All rights reserved.
+ * Voltage Measurement Firmware
+ * Copyright 2019 HackTheBase - UCW Labs Ltd. All rights reserved.
  */
 
 #include <SPI.h>

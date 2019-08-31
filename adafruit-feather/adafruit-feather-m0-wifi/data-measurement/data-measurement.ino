@@ -1,6 +1,6 @@
 /* 
-  Data Measurement Firmware
-  Copyright 2019 HackTheBase - UCW Labs Ltd. All rights reserved.
+ * Data Measurement Firmware
+ * Copyright 2019 HackTheBase - UCW Labs Ltd. All rights reserved.
  */
 
 #include <SPI.h>

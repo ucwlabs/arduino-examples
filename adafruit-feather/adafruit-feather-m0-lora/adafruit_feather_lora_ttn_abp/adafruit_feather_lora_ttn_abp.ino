@@ -1,6 +1,6 @@
 /* 
-  LoRaWAN ABP Example for The Things Network (TTN)
-  Copyright 2019 HackTheBase - UCW Labs Ltd. All rights reserved.
+ * LoRaWAN ABP Example for The Things Network (TTN)
+ * Copyright 2019 HackTheBase - UCW Labs Ltd. All rights reserved.
  */
 
 #include <lmic.h>
