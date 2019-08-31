@@ -154,7 +154,7 @@ String readData() {
   double temperature = 22.00;
   int humidity = 43;
   
-  String data = "{\"temperature\": \"%temperature\", \"humidity\": \"%humidity\"}";
+  String data = "{\"temperature\": %temperature, \"humidity\": %humidity}";
   data.replace("%temperature", String(temperature));
   data.replace("%humidity", String(humidity));
   
