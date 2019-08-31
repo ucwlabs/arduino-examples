@@ -1,7 +1,7 @@
 
 ## ARDUINO EXAMPLES
 
-The example was created for the HackTheBase IoT Hub Lab.
+The example projects for Arduino were created for the HackTheBase IoT Hub Lab.
 
 The [HackTheBase IoT Hub Lab](https://hackthebase.com/iot-hub-lab) is a creative space dedicated to prototyping and inventing, 
 all sorts of microcontrollers ([Adafruit Feather](https://www.adafruit.com/feather), [Particle Boron](https://docs.particle.io/boron/), 
